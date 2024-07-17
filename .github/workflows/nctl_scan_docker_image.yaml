@@ -32,8 +32,8 @@ jobs:
 
     - name: Check nctl version
       run: |
-        nctl version
-        nctl login --url https://nirmata.io --userid dolis@nirmata.com --token 87s9aymmWxG1c8q9min2caU6M4X9kmDtXQNc+LFQHLLCVhsW6QzHawQ2pQKZr5e3xc4zgTm+9cU3tl1v+d5WbA==
+        ./nctl version
+        ./nctl login --url https://nirmata.io --userid dolis@nirmata.com --token 87s9aymmWxG1c8q9min2caU6M4X9kmDtXQNc+LFQHLLCVhsW6QzHawQ2pQKZr5e3xc4zgTm+9cU3tl1v+d5WbA==
 
     - name: Run the Docker command
       run: ./nctl scan repository --policies ./policy/
