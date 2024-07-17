@@ -1,1 +1,1 @@
-# Springboot example
+# Springboot example app
